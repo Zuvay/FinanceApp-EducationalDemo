@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\FinanceApp.csproj": {}
+    "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\FinanceApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\FinanceApp.csproj": {
+    "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\FinanceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\FinanceApp.csproj",
+        "projectUniqueName": "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\FinanceApp.csproj",
         "projectName": "FinanceApp",
-        "projectPath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\FinanceApp.csproj",
+        "projectPath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\FinanceApp.csproj",
         "packagesPath": "C:\\Users\\OMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\obj\\",
+        "outputPath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "C:\\Users\\OMER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -80,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\OMER\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

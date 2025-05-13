@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hWaCW6AEgMY=",
+  "dgSpecHash": "M4jjR2QwhaE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp\\FinanceApp.csproj",
+  "projectFilePath": "C:\\Users\\OMER\\RiderProjects\\FinanceApp-EducationalDemo\\FinanceApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OMER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\OMER\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
