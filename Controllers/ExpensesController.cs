@@ -1,22 +1,21 @@
-﻿using FinanceApp.Data;
+﻿using FinanceApp.Data.Service;
 using FinanceApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace FinanceApp.Controllers;
 
 public class ExpensesController : Controller
 {
-    private readonly FinanceAppContext _context;
+    private readonly IExpenseService _expenseService;
 
-    public ExpensesController(FinanceAppContext context)
+    public ExpensesController(IExpenseService expenses)
     {
-        _context = context;
+        _expenseService = expenses;
     }
     // GET
     public async Task<IActionResult> Index()
     {   
-        var expenses = await _context.Expenses.ToListAsync();
+        var expenses = await _expenseService.GetAllExpenses();
         return View(expenses);
     }
     // POST
@@ -29,8 +28,7 @@ public class ExpensesController : Controller
     {
         if (ModelState.IsValid)
         {
-            _context.Expenses.Add(expense);
-            await _context.SaveChangesAsync();
+            await _expenseService.AddExpense(expense);
             return RedirectToAction("Index");
         }
         return View();
