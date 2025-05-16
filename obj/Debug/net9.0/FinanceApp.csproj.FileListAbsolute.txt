@@ -104,3 +104,4 @@ C:\Users\OMER\RiderProjects\FinanceApp\obj\Debug\net9.0\refint\FinanceApp.dll
 C:\Users\OMER\RiderProjects\FinanceApp\obj\Debug\net9.0\FinanceApp.pdb
 C:\Users\OMER\RiderProjects\FinanceApp\obj\Debug\net9.0\FinanceApp.genruntimeconfig.cache
 C:\Users\OMER\RiderProjects\FinanceApp\obj\Debug\net9.0\ref\FinanceApp.dll
+C:\Users\OMER\RiderProjects\FinanceApp\obj\Debug\net9.0\FinanceApp.sourcelink.json
